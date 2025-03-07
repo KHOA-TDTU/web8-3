@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Day Celebration</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #ffe6f0;
+            color: #4a4a4a;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 3em;
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .quote {
+            font-style: italic;
+            margin: 20px 0;
+            font-size: 1.2em;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .author {
+            margin-bottom: 40px;
+            font-weight: bold;
+            animation: fadeIn 4s ease-in-out;
+        }
+        .flowers {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeIn 5s ease-in-out;
+        }
+        .flower {
+            margin: 10px;
+            width: 150px;
+            height: 150px;
+            background-color: #fff;
+            border: 2px solid #e91e63;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+            animation: bounce 2s infinite;
+            text-decoration: none;
+            color: #4a4a4a;
+        }
+        .flower:hover {
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Women's Day!</h1>
+    <p class="quote">"To the enchanting strength of women—may we cherish them in our hearts, embody their grace, and nurture their radiant power in those we raise!"</p>
+    <p class="author"></p>
+
+    <div class="flowers">
+        <a class="flower" href="wish1.html">🌸</a>
+        <a class="flower" href="wish2.html">🌷</a>
+        <a class="flower" href="wish3.html">🌺</a>
+    </div>
+</body>
+</html>

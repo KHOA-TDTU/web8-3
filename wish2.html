@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Day Wish</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #d4f4e1; /* pastel green */
+            color: #4a4a4a;
+            text-align: center;
+            padding: 20px;
+            animation: backgroundAnimation 15s infinite;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px #000000;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #ffffff;
+            text-shadow: 1px 1px 2px #000000;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .wish {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #ffffff;
+            text-shadow: 1px 1px 2px #000000;
+            animation: fadeIn 3s ease-in-out, pulse 2s infinite;
+        }
+        @keyframes backgroundAnimation {
+            0% { background-color: #d4f4e1; }
+            25% { background-color: #b3e8c9; }
+            50% { background-color: #95dcaf; }
+            75% { background-color: #77d09d; }
+            100% { background-color: #d4f4e1; }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Women's Day!</h1>
+    <p class="wish">"Nhân dịp Quốc tế Phụ nữ, chúc bạn luôn xinh đẹp, mạnh mẽ và vững vàng vượt qua mọi thử thách trong cuộc sống!"</p>
+</body>
+</html>
